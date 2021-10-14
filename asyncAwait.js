@@ -39,7 +39,7 @@ function createPost(post) {
     
 }
 
-// using async and await to get the required result
+// using async and await to get the required resuasynlt
 async function init() {
     await createPost({ title: 'Post Three', body: 'This is post three'});
     getPosts()
